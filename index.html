@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Lover</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body style="margin:0;">
+
+<!-- Hero Section -->
+<div class="hero" style="background: url('pexels-kei-photo-1420806-2741457.jpg') center/cover no-repeat; background-size:cover; min-height:100vh; position:relative;">
+
+    <!-- Overlay -->
+    <div style="background: rgba(0,0,0,0.6); width:100%; height:100%; position:absolute; top:0; left:0;"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark fixed-top" style="z-index: 5;background-color: #0c0e47;">
+        <a class="navbar-brand font-weight-bold" href="#">Food Lover</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#offer">Offer</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Content -->
+    <div class="d-flex flex-column justify-content-center align-items-center text-center text-white position-relative" style="z-index:2; padding:200px 40px;">
+        <h1 class="display-4 font-weight-bold">
+            Welcome To <span class="text-warning">Food Lover</span> Restaurant
+        </h1>
+        <p class="lead mt-3 mb-4">
+            Here you can find Most delicacies food in the world
+        </p>
+        <a href="#form" class="btn btn-outline-light px-4 py-2" id="Bookbtn">Book a Table</a>
+    </div>
+
+</div>
+<!-- Hero Section End -->
+
+<!-- About History Section -->
+<section id="about" class="py-5 d-flex flex-column justify-content-center text-white"  style="background-color:#0c0e47; min-height:100vh; padding-top:80px; padding-bottom:80px;">
+    <div class="container">
+        <!-- First: Title & Short Text -->
+        <div class="text-center mb-5">
+            <h3 class="display-4 font-weight-bold">The Food Lover History</h3>
+            <p class="lead">More than 25+ years of experience</p>
+        </div>
+
+        <!-- Second: Main Content -->
+        <div class="row align-items-center">
+            <!-- Left: Text -->
+            <div class="col-md-8 mb-4 mb-md-0">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Exercitationem voluptate doloribus impedit nesciunt facilis 
+                    aliquam dolorem voluptatum natus quaerat repudiandae vitae, cum eligendi? Labore,
+                    voluptate odit nam laboriosam doloremque dolorum vero consectetur sed accusamus
+                    vitae earum laborum eaque cupiditate minus aliquid, voluptatum natus 
+                    quaerat repudiandae vitae, cum eligendi? Labore,
+                    voluptate odit nam laboriosam doloremque dolorum vero consectetur sed accusamus
+                    vitae earum laborum eaque cupiditate minus aliquid.
+                </p>
+                <a href="#" class="btn btn-outline-light mt-3 px-4 py-2">Learn More</a>
+            </div>
+            <!-- Right: 4 Images Grid with Overlay -->
+            <div class="col-md-4">
+                <div class="row">
+                    <!-- Image 1 -->
+                    <div class="col-6 mb-3">
+                        <div style="position:relative; height:120px; overflow:hidden;">
+                            <img src="manyfood.avif" alt="History 1" class="img-fluid w-100 h-100" style="object-fit:cover; border-radius: 10px;">
+                            <div style="position:absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.5); border-radius: 10px;"></div>
+                        </div>
+                    </div>
+                    <!-- Image 2 -->
+                    <div class="col-6 mb-3">
+                        <div style="position:relative; height:120px; overflow:hidden;">
+                            <img src="meal4.avif" alt="History 2" class="img-fluid w-100 h-100" style="object-fit:cover; border-radius: 10px;">
+                            <div style="position:absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.5); border-radius: 10px;"></div>
+                        </div>
+                    </div>
+                    <!-- Image 3 -->
+                    <div class="col-6">
+                        <div style="position:relative; height:120px; overflow:hidden;">
+                            <img src="meal4.avif" alt="History 3" class="img-fluid w-100 h-100" style="object-fit:cover; border-radius: 10px;">
+                            <div style="position:absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.5); border-radius: 10px;"></div>
+                        </div>
+                    </div>
+                    <!-- Image 4 -->
+                    <div class="col-6">
+                        <div style="position:relative; height:120px; overflow:hidden;">
+                            <img src="fastfoodGallery.avif" alt="History 4" class="img-fluid w-100 h-100" style="object-fit:cover; border-radius: 10px;">
+                            <div style="position:absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.5); border-radius: 10px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- About History Section End -->
+
+<!-- Menu section -->
+<section id="menu" style="background-color:#ffffff; min-height:100vh; padding-top:80px; padding-bottom:80px;">
+    <div class="container">
+    <!-- First: Title & Short Text -->
+        <div class="text-center mb-5">
+            <h3 class="display-4 font-weight-bold">Our Special Menu</h3>
+            <p class="lead">Order tow and get third for free</p>
+        </div>
+    <!-- second: menu content -->
+        <div class="container"> 
+            <div class="row">
+                <div class="col-lg col-12-sm">
+                    <div class="item d-flex align-items-center mb-3">
+                        <img src="meal3.avif" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" alt="">
+                        <div class="ml-3">
+                            <div class="des d-flex justify-content-between" style="border-bottom: 1px solid #ddd;">
+                                <h6 class="font-weight-bold py-1" > Shrimp Pasta</h6>
+                                <small class="font-weight-bold text-warning">$12.99</small>
+                            </div>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            
+                        </div>
+                    </div>
+                    <div class="item d-flex align-items-center mb-3">
+                        <img src="meal2.avif" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" alt="">
+                        <div class="ml-3">
+                            <div class="des d-flex justify-content-between" style="border-bottom: 1px solid #ddd;">
+                                <h6 class="font-weight-bold py-1">Cherry pan cake</h6>
+                                <small class="font-weight-bold text-warning">$11.99</small>
+                            </div>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="item d-flex align-items-center mb-3">
+                        <img src="meal4.avif" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" alt="">
+                        <div class="ml-3">
+                            <div class="des d-flex justify-content-between" style="border-bottom: 1px solid #ddd;">
+                                <h6 class="font-weight-bold py-1">Pasta</h6> 
+                                <small class="font-weight-bold text-warning">$9.99</small>
+                            </div>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="item d-flex align-items-center mb-3">
+                        <img src="meal5.avif" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" alt="">
+                        <div class="ml-3">
+                            <div class="des d-flex justify-content-between" style="border-bottom: 1px solid #ddd;">
+                                <h6 class="font-weight-bold py-1">Salad</h6>
+                                <small class="font-weight-bold text-warning">$13.00</small>
+                            </div>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="item d-flex align-items-center mb-3">
+                        <img src="meal6.avif" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" alt="">
+                        <div class="ml-3">
+                            <div class="des d-flex justify-content-between" style="border-bottom: 1px solid #ddd;">
+                                <h6 class="font-weight-bold py-1">Pan cake</h6>
+                                <small class="font-weight-bold text-warning">$10.50</small>
+                            </div>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing.</p> 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg col-12-sm">
+                    <div class="item d-flex align-items-center mb-3">
+                        <img src="pizza.avif" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" alt="">
+                        <div class="ml-3">
+                            <div class="des d-flex justify-content-between" style="border-bottom: 1px solid #ddd;">
+                                <h6 class="font-weight-bold py-1">Pizza</h6>
+                                <small class="font-weight-bold text-warning">$18.99</small>
+                            </div>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="item d-flex align-items-center mb-3">
+                        <img src="noodleoffer3.avif" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" alt="">
+                        <div class="ml-3">
+                            <div class="des d-flex justify-content-between" style="border-bottom: 1px solid #ddd;">
+                                <h6 class="font-weight-bold py-1">Noodle</h6>
+                                <small class="font-weight-bold text-warning">$15.25</small>
+                            </div>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="item d-flex align-items-center mb-3">
+                        <img src="fish.avif" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" alt="">
+                        <div class="ml-3">
+                            <div class="des d-flex justify-content-between" style="border-bottom: 1px solid #ddd;">
+                                <h6 class="font-weight-bold py-1">Fish</h6>
+                                <small class="font-weight-bold text-warning">$14.50</small>
+                            </div>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="item d-flex align-items-center mb-3">
+                        <img src="burger2.avif" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" alt="">
+                        <div class="ml-3">
+                            <div class="des d-flex justify-content-between" style="border-bottom: 1px solid #ddd;">
+                                <h6 class="font-weight-bold py-1">Beef Sandwich</h6>
+                                <small class="font-weight-bold text-warning">$6.50</small>
+                            </div>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="item d-flex align-items-center mb-3">
+                        <img src="saladoofer2.avif" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;" alt="">
+                        <div class="ml-3">
+                            <div class="des d-flex justify-content-between" style="border-bottom: 1px solid #ddd;">
+                                <h6 class="font-weight-bold py-1">Salad</h6>
+                                <small class="font-weight-bold text-warning">$4.99</small>
+                            </div>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+</section>
+<!-- Menu section end -->
+
+<!-- Offer section -->
+ <section id="offer" style="background-color:#0c0e47; min-height:100vh; padding-top:80px; padding-bottom:80px;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h3 class="display-4 font-weight-bold text-warning">Our Special Offers</h3>
+            <p class="lead text-white">Order Now</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <!-- item 1 -->
+                <div class="col-lg-4 col-sm-12 d-flex flex-column align-items-center "onmouseover="this.style.background='rgba(255,255,255,0.15)'"
+                onmouseout="this.style.background='rgba(255,255,255,0)'" style="transition: all 0.4s ease-out;">
+                    <img src="pastaoffer1.avif" alt="" class="card-img-top" style="border-radius: 50%; width: 120px; height: 120px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <div class="card-title text-white font-weight-bold text-center">
+                            Grilled Chicken
+                        </div>
+                        <div class="card-text text-white lead text-center" style="font-size: smaller;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, officia.
+                        </div>
+                        <div class="card-text text-center m-3">
+                            <del class="text-white mr-2" style="font-size: smaller;">$55.00</del><span class="text-warning">$18.00</span>
+                        </div>
+                        <button class="btn btn-outline-warning">order now</button>
+                    </div>
+                </div>
+                <!-- item 2 -->
+                <div class="col-lg-4 col-sm-12 d-flex flex-column align-items-center" onmouseover="this.style.background='rgba(255,255,255,0.15)'"
+                onmouseout="this.style.background='rgba(255,255,255,0)'" style="transition: all 0.4s ease-out;">
+                    <img src="saladoofer2.avif" alt="" class="card-img-top" style="border-radius: 50%; width: 120px; height: 120px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <div class="card-title text-white font-weight-bold text-center">
+                            Vegertarian Salad
+                        </div>
+                        <div class="card-text text-white lead text-center " style="font-size: smaller;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, pariatur.
+                        </div>
+                        <div class="card-text text-center m-3">
+                            <del class="text-white mr-2" style="font-size: smaller;">$55.00</del><span class="text-warning">$18.00</span>
+                        </div>
+                        <button class="btn btn-outline-warning">order now</button>
+                    </div>
+                </div>
+                <!-- item 3 -->
+                <div class="col-lg-4 col-sm-12 d-flex flex-column align-items-center" onmouseover="this.style.background='rgba(255,255,255,0.15)'"
+                onmouseout="this.style.background='rgba(255,255,255,0)'" style="transition: all 0.4s ease-out;">
+                    <img src="noodleoffer3.avif" alt="" class="card-img-top" style="border-radius: 50%; width: 120px; height: 120px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <div class="card-title text-white font-weight-bold text-center">
+                            Gluten-Free Pasta
+                        </div>
+                        <div class="card-text text-white lead text-center" style="font-size: smaller;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, saepe!
+                        </div>
+                        <div class="card-text text-center m-3">
+                            <del class="text-white mr-2" style="font-size: smaller;">$55.00</del><span class="text-warning">$18.00</span>
+                        </div>
+                        <button class="btn btn-outline-warning">order now</button>
+                    </div>
+                </div>
+                <!-- stop -->
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- Offer section end -->
+
+<!-- Mockup section -->
+ <section id="mockup" class="bg-warning" >
+    <div class="container py-5 px-5 text-center">
+        <div class="row">
+            <div class="col">
+                <img src="breakfast.png" style="width: 70px; height: 70px;" alt="">
+                <h5 class="text-white">Breakfast</h5>
+                <p class="text-white">8:00 Am to 10:00 Am</p>
+            </div>
+            <div class="col">
+                <img src="soup-bowl.png" style="width: 70px; height: 70px;"alt="">
+                <h5 class="text-white">Lunch</h5>
+                <p class="text-white">4:00 pm to 7:00 pm</p>
+            </div>
+            <div class="col">
+                <img src="restaurant.png" style="width: 70px; height: 70px;" alt="">
+                <h5 class="text-white">Dinner</h5>
+                <p class="text-white">9:00 pm to 1:00 Am</p>
+            </div>
+            <div class="col">
+                <img src="ice-cream.png" style="width: 70px; height: 70px;" alt="">
+                <h5 class="text-white">Dessert</h5>
+                <p class="text-white">All day</p>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- Mockup section end -->
+
+<!-- Gallery section -->
+ <section id="gallery" style="background-color:#0c0e47; min-height:100vh; padding-top:80px; padding-bottom:80px;">
+    <div class="text-center mb-5">
+            <h3 class="display-4 font-weight-bold text-white">Our Food Gallery</h3>
+    </div>
+    <div class="container">
+       <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div style="border-radius:20px; overflow:hidden;">
+                    <img src="manyfood.avif" class="img-fluid m-2"
+                    style="height:200px; width:100%; object-fit:cover; border-radius:20px">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div style="border-radius:20px; overflow:hidden;">
+                    <img src="meal1.avif" class="img-fluid m-2"
+                    style="height:200px; width:100%; object-fit:cover; border-radius:20px">
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div style="border-radius:20px; overflow:hidden;">
+                    <img src="fastfoodGallery.avif" class="img-fluid m-2"
+                    style="height:200px; width:100%; object-fit:cover; border-radius:20px">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div style="border-radius:20px; overflow:hidden;">
+                    <img src="sweetdrink1.avif" class="img-fluid m-2"
+                    style="height:200px; width:100%; object-fit:cover; border-radius:20px">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div style="border-radius:20px; overflow:hidden;">
+                    <img src="sweet4.avif" class="img-fluid m-2"
+                    style="height:200px; width:100%; object-fit:cover; border-radius:20px">
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div style="border-radius:20px; overflow:hidden;">
+                    <img src="sweetdesert2.avif" class="img-fluid m-2"
+                    style="height:200px; width:100%; object-fit:cover; border-radius:20px">
+                </div>
+            </div>
+             <div class="col-md-6 col-lg-4">
+                <div style="border-radius:20px; overflow:hidden;">
+                    <img src="meal5.avif" class="img-fluid m-2"
+                    style="height:200px; width:100%; object-fit:cover; border-radius:20px">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div style="border-radius:20px; overflow:hidden;">
+                    <img src="burger3.avif" class="img-fluid m-2"
+                    style="height:200px; width:100%; object-fit:cover; border-radius:20px">
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div style="border-radius:20px; overflow:hidden;">
+                    <img src="meal6.avif" class="img-fluid m-2"
+                    style="height:200px; width:100%; object-fit:cover; border-radius:20px">
+                </div>
+            </div>
+       </div>
+    </div>
+ </section>
+<!-- Gallery section end -->
+
+<!-- contact section -->
+ <section id="contact" style="background-color:#ffffff; height:70vh; padding-top:80px; padding-bottom:80px;">
+    <div class="container">
+        <div class="row container">
+            <div class=" col-12 col-lg-6 container">
+                <!-- contact info -->
+                <div class="row d-flex flex-column mb-2">
+                    <h4 style="color: #0c0e47;">ADDRESS</h4>
+                    <div>
+                        <span><i class="fas fa-map-marker-alt text-warning m-2"></i></span>
+                        <p style="font-size: smaller; display:inline-block;" class="text-secondary">Hosary Mosque, 6 October, Egypt</p>
+                    </div>
+                    <div>
+                        <span><i class="fas fa-phone text-warning m-2"></i></span>
+                        <p style="font-size: smaller; display:inline-block;" class="text-secondary">Phone: 123456789</p>
+                    </div>
+                    <div>
+                        <span><i class="fas fa-envelope text-warning m-2"></i></span>
+                        <p style="font-size: smaller; display:inline-block;" class="text-secondary">support@foodlover.com</p>
+                    </div>
+                    
+                </div>
+                <div class="row d-flex flex-column mb-2">
+                    <h4 style="color: #0c0e47;">WORKING HOURS</h4>
+                    <p style="font-size: smaller;" class="text-secondary">8:00 Am to 11:00 Pm on Weekdays</p>
+                    <p style="font-size: smaller;" class="text-secondary">11:00 Am to 1:00 Am on Weekends</p>
+                </div>
+                <div class="row d-flex flex-column mb-2">
+                    <h4 style="color: #0c0e47;" class="mb-2">FOLLOW US</h4>
+                    <div>
+                        <span><i style="color: #0c0e47;" class="fa-2x m-1 fab fa-facebook-f"></i></span>
+                        <span><i style="color: #0c0e47;" class="fa-2x m-1 fab fa-instagram"></i></span>
+                        <span><i style="color: #0c0e47;" class="fa-2x m-1 fab fa-twitter"></i></span>
+                    </div>
+            </div>
+            </div>
+            
+            <div class="col-12 col-lg-6 container">
+                <!-- form -->
+                <form action="" id="form">
+                    <input type="text" class="form-control mb-3" style="background-color: #f4f5b03f; border: none; border-radius: 12px;" placeholder="Full Name">
+                    <input type="email" class="form-control mb-3" style="background-color: #f4f5b03f;border: none; border-radius: 12px;" placeholder="Email Address">
+                    <input type="text" class="form-control mb-3" style="background-color: #f4f5b03f; border: none; border-radius: 12px;" placeholder="Subject">
+                    <textarea placeholder="Message" class="form-control mb-3" style="background-color: #f4f5b03f;border: none; border-radius: 12px;" rows="5"></textarea>
+                    <button class="btn btn-warning text-white m-2" >SEND MESSAGE</button>
+
+                </form>
+            </div>
+    
+        </div>
+    </div>
+ </section>
+ <div class="text-center text-white py-2" style="background-color: #0c0e47;">Copyright@ 2025 All rights reserved | made by <span class="text-warning font-weight-bold">Leila Samy</span> </div>
+<!-- contact section end-->
+
+<script src="js/jquery-3.7.1.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
